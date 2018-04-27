@@ -25,6 +25,24 @@
         <div class="sixteen wide column section">
           <div>SIGGRAPH Asia 2014</div>
         </div>
+        <div class="sixteen wide column divider">
+          <div class="ui divider"></div>
+        </div>
+        <div class="four wide column">
+          <img class="ui image fluid" src="teaser-0.png"></img>
+        </div>
+        <div class="four wide column">
+          <img class="ui image fluid" src="teaser-1.png"></img>
+        </div>
+        <div class="four wide column">
+          <img class="ui image fluid" src="teaser-2.png"></img>
+        </div>
+        <div class="four wide column">
+          <img class="ui image fluid" src="teaser-3.png"></img>
+        </div>
+        <div class="sixteen wide column divider">
+          <div class="ui divider"></div>
+        </div>
         <div class="sixteen wide column section">
           <div class="ui header project section">Abstract</div>
           <div>We introduce a new method for fluid simulation on high-resolution adaptive grids which rivals the throughput and parallelism potential of methods based on uniform grids. Our enabling contribution is SPGrid, a new data structure for compact storage and efficient stream processing of sparsely populated uniform Cartesian grids. SPGrid leverages the extensive hardware acceleration mechanisms inherent in the x86 Virtual Memory Management system to deliver sequential and stencil access bandwidth comparable to dense uniform grids. Second, we eschew tree-based adaptive data structures in favor of storing simulation variables in a pyramid of sparsely populated uniform grids, thus avoiding the cost of indirect memory access associated with pointer-based representations. We show how the costliest algorithmic kernels of fluid simulation can be implemented as a composition of two kernel types: (a) stencil operations on a single sparse uniform grid, and (b) structured data transfers between adjacent levels of resolution, even when modeling non-graded octrees. Finally, we demonstrate an adaptive multigrid-preconditioned Conjugate Gradient solver that achieves resolution-independent convergence rates while admitting a lightweight implementation with a modest memory footprint. Our method is complemented by a new interpolation scheme that reduces dissipative effects and simplifies dynamic grid adaptation. We demonstrate the efficacy of our method in end-to-end simulations of smoke flow.</div>
@@ -32,6 +50,12 @@
         <div class="sixteen wide column section">
           <div class="ui header project section">Paper</div>
           <div><a href="spgrid.pdf" target="_blank">Download Paper</a> (9 MB)</div>
+        </div>
+        <div class="sixteen wide column">
+          <div class="ui header project section">Video</div>
+          <div class="ui embed">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Rf14M7VncZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
         </div>
         <div class="sixteen wide column section">
           <div class="ui header project section">Code</div>
