@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../assets/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/custom.css">
+    <title>2D Nonlinear Elasticity</title>
+    <link rel="shortcut icon" href="../../assets/images/stanford.ico" />
+  </head>
+
+  <body>
+    <div class="ui text container main">
+      <div class="ui grid stackable project">
+        <div class="sixteen wide column section">
+          <div class="ui header project">Fast Grid-Based Nonlinear Elasticity for 2D Deformations</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui list project authors">
+            <div class="item"><a href="https://stanford.edu/~setaluri/" target="_blank">Rajsekhar Setaluri</a>, UW-Madison</div>
+            <div class="item"><a href="http://www.mit.edu/~wangyu9/" target="_blank">Yu Wang</a>, University of Pennsylvania</div>
+            <div class="item"><a href="http://nathanmitchell.graphics/" target="_blank">Nathan Mitchell</a>, UW-Madison</div>
+            <div class="item"><a href="https://www.cs.utah.edu/~ladislav/" target="_blank">Ladislav Kavan</a>, University of Pennsylvania</div>
+            <div class="item"><a href="http://pages.cs.wisc.edu/~sifakis/" target="_blank">Eftychios Sifakis</a>, UW-Madison</div>
+          </div>
+        </div>
+        <div class="sixteen wide column section">
+          <div>Symposium on Computer Animation (SCA) 2014</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui header project section">Abstract</div>
+          <div>We present a deformation technique that constructs 2D warps by using spline curves to specify the starting and target shapes of selected key contours. We generate a two-dimensional deformation map from these contours by simulating a non-linear elastic membrane deforming in accordance with user-specified constraints. Although we support and demonstrate elastic models inspired by physical membranes, we highlight a custom material model for this specific application, which combines the benefits of harmonic interpolation and area-preserving deformations. Our warps are represented via a standard Cartesian lattice and leverage the regularity of this description to enable efficient computation. Specifically, our method resolves the targeting constraints imposed along arbitrarily shaped contours with sub-grid cell precision, without requiring an explicit remeshing of the warp lattice around the constraint curve. We describe how to obtain a well-conditioned discretization of our membrane model even under elaborate constraints and strict area preservation demands, and present a multigrid solver for the efficient numerical solution of the deformation problem.</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui header project section">Paper</div>
+          <div><a href="2d-nonlinear-elasticity.pdf" target="_blank">Download Paper</a> (6 MB)</div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
