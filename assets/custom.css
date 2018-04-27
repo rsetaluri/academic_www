@@ -1,0 +1,60 @@
+* {
+    /* font-family: 'Times New Romadf', 'Helvetica Neue' !important; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+.main.container {
+    margin-top: 4em;
+}
+
+.ui.grid {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.ui.image.medium {
+    width: 250px;
+    margin-left: 30px;
+}
+
+.ui.header.name {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.eight.wide.column.header-text {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.ui.header.section {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+PublicationList.ui.list .header a {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+.sixteen.wide.column.divider {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ui.list.teaching {
+    font-size: 16px;
+}
+
+.sixteen.wide.column.subtext {
+    margin-top: 10px;
+}
+
+.sixteen.wide.column.section {
+    margin-bottom: 10px;
+}
