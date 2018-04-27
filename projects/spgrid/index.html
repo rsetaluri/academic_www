@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../assets/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/custom.css">
+    <title>SPGrid</title>
+    <link rel="shortcut icon" href="../../assets/images/stanford.ico" />
+  </head>
+
+  <body>
+    <div class="ui text container main">
+      <div class="ui grid stackable project">
+        <div class="sixteen wide column section">
+          <div class="ui header project">SPGrid: A Sparse Paged Grid Structure Applied to Adaptive Smoke Simulation</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui list project authors">
+            <div class="item"><a href="https://stanford.edu/~setaluri/" target="_blank">Rajsekhar Setaluri</a>, UW-Madison</div>
+            <div class="item"><a href="https://www.cs.rutgers.edu/~ma635/" target="_blank">Mridul Aanjaneya</a>, UW-Madison</div>
+            <div class="item">Sean Bauer, UW-Madison</div>
+            <div class="item"><a href="http://pages.cs.wisc.edu/~sifakis/" target="_blank">Eftychios Sifakis</a>, UW-Madison</div>
+          </div>
+        </div>
+        <div class="sixteen wide column section">
+          <div>SIGGRAPH Asia 2014</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui header project section">Abstract</div>
+          <div>We introduce a new method for fluid simulation on high-resolution adaptive grids which rivals the throughput and parallelism potential of methods based on uniform grids. Our enabling contribution is SPGrid, a new data structure for compact storage and efficient stream processing of sparsely populated uniform Cartesian grids. SPGrid leverages the extensive hardware acceleration mechanisms inherent in the x86 Virtual Memory Management system to deliver sequential and stencil access bandwidth comparable to dense uniform grids. Second, we eschew tree-based adaptive data structures in favor of storing simulation variables in a pyramid of sparsely populated uniform grids, thus avoiding the cost of indirect memory access associated with pointer-based representations. We show how the costliest algorithmic kernels of fluid simulation can be implemented as a composition of two kernel types: (a) stencil operations on a single sparse uniform grid, and (b) structured data transfers between adjacent levels of resolution, even when modeling non-graded octrees. Finally, we demonstrate an adaptive multigrid-preconditioned Conjugate Gradient solver that achieves resolution-independent convergence rates while admitting a lightweight implementation with a modest memory footprint. Our method is complemented by a new interpolation scheme that reduces dissipative effects and simplifies dynamic grid adaptation. We demonstrate the efficacy of our method in end-to-end simulations of smoke flow.</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui header project section">Paper</div>
+          <div><a href="spgrid.pdf" target="_blank">Download Paper</a> (9 MB)</div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
