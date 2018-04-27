@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../assets/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/custom.css">
+    <title>Non-mainfold Level Sets</title>
+    <link rel="shortcut icon" href="assets/images/stanford.ico" />
+  </head>
+
+  <body>
+    <div class="ui text container main">
+      <div class="ui grid stackable project">
+        <div class="sixteen wide column section">
+          <div class="ui header project">Non-manifold Level Sets: A Multivalued Implicit Surface Representation with Applications to Self-Collision Processing</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui list project authors">
+            <div class="item"><a href="http://nathanmitchell.graphics/" target="_blank">Nathan Mitchell</a>, UW-Madison</div>
+            <div class="item"><a href="https://www.cs.rutgers.edu/~ma635/" target="_blank">Mridul Aanjaneya</a>, UW-Madison</div>
+            <div class="item"><a href="https://stanford.edu/~setaluri/" target="_blank">Rajsekhar Setaluri</a>, UW-Madison</div>
+            <div class="item"><a href="http://pages.cs.wisc.edu/~sifakis/" target="_blank">Eftychios Sifakis</a>, UW-Madison</div>
+          </div>
+        </div>
+        <div class="sixteen wide column section">
+          <div>SIGGRAPH Asia 2015</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui header project section">Abstract</div>
+          <div>Level sets have been established as highly versatile implicit surface representations, with widespread use in graphics applications including modeling and dynamic simulation. Nevertheless, level sets are often presumed to be limited, compared to explicit meshes, in their ability to represent domains with thin topological features (e.g. narrow slits and gaps) or, even worse, material overlap. Geometries with such features may arise from modeling tools that tolerate occasional self-intersections, fracture modeling algorithms that create narrow or zero-width cuts by design, or as transient states in collision processing pipelines for deformable objects. Converting such models to level sets can alter their topology if thin features are not resolved by the grid size. We argue that this ostensible limitation is not an inherent defect of the implicit surface concept, but a collateral consequence of the standard Cartesian lattice used to store the level set values. We propose storing signed distance values on a regular hexahedral mesh which can have multiple collocated cubic elements and non-manifold bifurcation to accommodate non-trivial topology. We show how such non-manifold level sets can be systematically generated from convenient alternative geometric representations. Finally we demonstrate how this representation can facilitate fast and robust treatment of self-collision in simulations of volumetric elastic deformable bodies.</div>
+        </div>
+        <div class="sixteen wide column section">
+          <div class="ui header project section">Paper</div>
+          <div><a href="non-manifold-level-sets.pdf" target="_blank">Download Paper</a> (37 MB)</div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

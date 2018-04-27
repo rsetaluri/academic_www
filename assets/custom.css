@@ -12,6 +12,11 @@
     margin-left: 2rem;
 }
 
+.ui.grid.project {
+    margin-right: -6em;
+    margin-left: -6em;
+}
+
 .ui.image.medium {
     width: 250px;
     margin-left: 30px;
@@ -57,4 +62,14 @@ a:hover {
 
 .sixteen.wide.column.section {
     margin-bottom: 10px;
+}
+
+.ui.header.project {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.ui.header.project.section {
+    font-size: 24px;
+    font-weight: bold;
 }
